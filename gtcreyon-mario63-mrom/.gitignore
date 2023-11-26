@@ -1,0 +1,4 @@
+.mrom-cache/
+.Patcher-Temp/
+output/
+!output/.gitkeep

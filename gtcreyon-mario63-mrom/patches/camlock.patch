@@ -1,0 +1,6 @@
+remove frame_3/DoAction.as 354-354
+
+add frame_3/DoAction.as 353
+begin-patch
+if(_root.Camspeed > 1 && _root.camlock)
+end-patch

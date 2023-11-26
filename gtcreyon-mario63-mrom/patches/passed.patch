@@ -1,0 +1,6 @@
+remove DefineSprite_2110/frame_1/DoAction.as 1-18
+
+add DefineSprite_2110/frame_1/DoAction.as 1
+begin-patch
+passed = "MushROM Alpha"
+end-patch
