@@ -11,7 +11,7 @@ echo "This test should take about TIME seconds."
 echo "Verifying Super Mario 63 - MushROM files."
 # FIXME - diff the base swf and the mrom swf and make sure they're equal
 
-cd ..
+#cd ..
 echo "Super Mario 63 - MushROM patching was successful."
 
 # Super Mario Flash - Fullgame Hack
