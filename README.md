@@ -19,13 +19,13 @@ Steps to run integration tests locally:
 
 MROM can be found at: https://gitlab.com/GTcreyon/mrom
 
-MROM reference SWF was generated with Flash Patcher v4.1.3.
+MROM reference SWF was generated with Flash Patcher v[TODO: Insert here when added].
 
 ### Super Mario Flash: Fullgame Hack
 
 SMF Fullgame Hack does not have an open-source home.
 
-SMF Fullgame Hack reference SWF was generated with Flash Patcher v4.1.3.
+SMF Fullgame Hack reference SWF was generated with Flash Patcher v4.1.9 beta.
 
 ## Onboarding
 
