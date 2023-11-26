@@ -9,7 +9,7 @@ echo "This test should take about TIME seconds."
 #cd gtcreyon-mario63-mrom && ./build.sh
 
 echo "Verifying Super Mario 63 - MushROM files."
-# FIXME
+# FIXME - diff the base swf and the mrom swf and make sure they're equal
 
 cd ..
 echo "Super Mario 63 - MushROM patching was successful."
@@ -17,9 +17,9 @@ echo "Super Mario 63 - MushROM patching was successful."
 # Super Mario Flash - Fullgame Hack
 echo "Running Super Mario Flash - Fullgame Hack integration test."
 echo "This test should take about 30 seconds."
-#cd rayyaw-marioflash-fullgame && ./patch-all.sh 19
+cd rayyaw-marioflash-fullgame && ./patch-all.sh 19
 
 echo "Verifying Super Mario Flash - Fullgame Hack files."
-#diff SMF_Reference_Output.swf SMF-Fullgame-Build-19.swf
+diff SMF_Reference_Output.swf SMF-Fullgame-Build-19.swf
 cd ..
 echo "Super Mario Flash - Fullgame Hack patching was successful."
