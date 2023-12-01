@@ -5,13 +5,13 @@ echo "Flash Patcher Integration Test Runner."
 
 # Super Mario 63 - MushROM
 echo "Running Super Mario 63 - MushROM integration test."
-echo "This test should take about TIME seconds."
-#cd gtcreyon-mario63-mrom && ./build.sh
+cd gtcreyon-mario63-mrom
+./build.sh
 
 echo "Verifying Super Mario 63 - MushROM files."
-# FIXME - diff the base swf and the mrom swf and make sure they're equal
 
-#cd ..
+b2sum -c B2SUM
+cd ..
 echo "Super Mario 63 - MushROM patching was successful."
 
 # Super Mario Flash - Fullgame Hack
