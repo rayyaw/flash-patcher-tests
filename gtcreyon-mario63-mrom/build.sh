@@ -13,6 +13,6 @@ echo "Building core script..."
 python build_core.py -o .mrom-cache/core.as -d output/help.md
 
 echo "Patching in MROM code..."
-flash-patcher --inputswf base.swf --folder patches --stagefile inject.stage --output output/MushROM.swf
+flash-patcher --inputswf .mrom-cache/base.swf --folder patches --stagefile inject.stage --output output/MushROM.swf
 
 echo "Build complete! SWF saved to output/MushROM.swf"
