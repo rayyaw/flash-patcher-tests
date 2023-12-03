@@ -3,8 +3,6 @@ Integration tests for Flash Patcher. See https://github.com/rayyaw/flash-patcher
 
 We use integration tests by taking a fixed snapshot of the patches, applying them to the SWFs, and verifying that the generated output and the reference output diff to the same value.
 
-All reference SWFs were generated with Flash Patcher v4.1.3.
-
 ## Running locally
 
 Steps to run integration tests locally:
@@ -19,7 +17,7 @@ Steps to run integration tests locally:
 
 MROM can be found at: https://gitlab.com/GTcreyon/mrom
 
-MROM reference SWF was generated with Flash Patcher v[TODO: Insert here when added].
+MROM reference SWF was generated with Flash Patcher v4.1.9 beta.
 
 ### Super Mario Flash: Fullgame Hack
 
