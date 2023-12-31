@@ -23,7 +23,7 @@ MROM reference SWF was generated with Flash Patcher v4.1.9 beta.
 
 SMF Fullgame Hack does not have an open-source home.
 
-SMF Fullgame Hack reference SWF was generated with Flash Patcher v4.1.9 beta.
+SMF Fullgame Hack reference SWF was generated with Flash Patcher v5.0.0 beta.
 
 ## Onboarding
 
