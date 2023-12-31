@@ -20,6 +20,6 @@ echo "This test should take about 30 seconds."
 cd rayyaw-marioflash-fullgame && ./patch-all.sh 19
 
 echo "Verifying Super Mario Flash - Fullgame Hack files."
-diff SMF_Reference_Output.swf SMF-Fullgame-Build-19.swf
+b2sum -c B2SUM
 cd ..
 echo "Super Mario Flash - Fullgame Hack patching was successful."
