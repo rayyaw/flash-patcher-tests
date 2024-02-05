@@ -1,11 +1,11 @@
 # SMF Fullgame Hack modifications
-noncheat/input-display-as-score.patch
-noncheat/track-speedrun-time.patch
-noncheat/add-build-number.patch
+exec-patcher noncheat/input-display-as-score.patch
+exec-patcher noncheat/track-speedrun-time.patch
+exec-patcher noncheat/add-build-number.patch
 
 # Fullgame hack only
 # noncheat/remove-cheat-menu.patch
-noncheat/add-uid.patch
+exec-patcher noncheat/add-uid.patch
 
 # This line must be last
-noncheat/pig.patch
+exec-patcher noncheat/pig.patch
