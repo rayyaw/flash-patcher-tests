@@ -1,1 +1,1 @@
-exec-patcher xml.patch
+apply-patch xml.patch

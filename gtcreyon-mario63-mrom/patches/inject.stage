@@ -1,4 +1,4 @@
-exec-patcher typelock.patch
-exec-patcher camlock.patch
-exec-patcher passed.patch
-exec-patcher core.assets
+apply-patch typelock.patch
+apply-patch camlock.patch
+apply-patch passed.patch
+apply-patch core.assets

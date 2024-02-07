@@ -17,6 +17,6 @@ echo "_root.build_number = $1;" >> noncheat/add-build-number.patch
 echo "end-patch" >> noncheat/add-build-number.patch
 
 # Patch all hacks
-$PATCHER --inputswf $SWF_FILE_PATH/SMF_Base_Hack.swf --folder . --mainfile fullgame.stage --outputswf SMF-Fullgame-Build-$1.swf --invalidateCache
+$PATCHER --inputswf $SWF_FILE_PATH/SMF_Base_Hack.swf --folder . --stagefile fullgame.stage --outputswf SMF-Fullgame-Build-$1.swf --invalidateCache
 
 echo "Patched SMF Fullgame hack"
