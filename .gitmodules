@@ -1,0 +1,3 @@
+[submodule "MarioFlashPatches"]
+	path = MarioFlashPatches
+	url = https://github.com/rayyaw/MarioFlashPatches.git
