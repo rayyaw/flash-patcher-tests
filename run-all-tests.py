@@ -3,6 +3,7 @@
 import subprocess
 from pathlib import Path
 import sys
+from urllib.request import urlretrieve
 
 
 def run_command(args, cwd=None):
@@ -37,21 +38,22 @@ def main():
     print("Running Super Mario Flash - Fullgame Hack integration test.")
     print("This test should take about 30 seconds.")
 
-    fullgame_dir = root / "rayyaw-marioflash-fullgame"
+    fullgame_dir = root / "MarioFlashPatches"
+
+    url = "https://marioflashcommunity.github.io/files/smf-hacks/SMF_Base_Hack.swf"
+    destination = fullgame_dir / "SMF_Base_Hack.swf"
+
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    urlretrieve(url, destination)
 
     run_command(
-        [sys.executable, "patch-all.py", "19"],
-        cwd=fullgame_dir,
-    )
-
-    print("Verifying Super Mario Flash - Fullgame Hack files.")
-
-    run_command(
-        [sys.executable, "../verify_b2sum.py", "B2SUM"],
+        [sys.executable, "patch-all.py"],
         cwd=fullgame_dir,
     )
 
     print("Super Mario Flash - Fullgame Hack patching was successful.")
+
+    # No checksum validation - the SMF build does it on its own
 
 
 if __name__ == "__main__":
